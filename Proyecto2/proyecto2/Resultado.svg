@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<svg width=' 2085 ' height='1000'>
+<g>
+<circle cx = '30' cy='30' r='20' stroke='black' stroke-width='3' fill='white' />
+<line x1= '3020' y1= '28' x2='3090' y2='308' stroke= 'black' stroke-width='3' />
+<line x1= '3019' y1= '3010' x2='3084' y2='3010' stroke= 'black' stroke-width='3' />
+
+<text x="0" y="15" fill="black">2</text>
+<circle cx = '30' cy='170' r='20' stroke='black' stroke-width='3' fill='white' />
+<text x="0" y="15" fill="black">3</text>
+  </g>
+</svg>

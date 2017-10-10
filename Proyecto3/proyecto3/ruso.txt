@@ -1,0 +1,14 @@
+Además del archivo HTML correspondiente a cada archivo especificado en la línea de comandos, deben generar un archivo index.html con ligas a cada archivo HTML generado, el número de palabras en cada uno, y una gráfica donde cada archivo es un vértice, y dos archivos son vecinos si ambos contienen al menos 10 palabras en común, con al menos 5 caracteres cada una.
+
+Su programa deberá cumplir las siguientes reglas:
+
+Todos los gráficos deben de ser SVG generados por ustedes (sin usar ninguna biblioteca externa).
+Deben usar las clases vistas en el curso, y no pueden utilizar ninguna clase del paquete java.util; excepciones e interfaces están permitidas.
+No pueden modificar las clases del curso: no pueden agregarles ni métodos ni variables de clase, no importa el acceso. Tampoco pueden modificar los nombres de paquetes. Deben utilizar las clases con el comportamiento que se les ha definido a lo largo del curso.
+Las clases de su proyecto deben estar en el paquete mx.unam.ciencias.edd.proyecto3.
+Los archivos de entrada deben poder especificarse con rutas absolutas o relativas. Esto significa que potencialmente pueden estar donde sea en el sistema de archivos.
+Su programa debe ser robusto frente a errores; si alguno de los archivos no existen, o el directorio de salida es un archivo, o no tienen los permisos necesarios, el programa no debe lanzar una excepción: debe mostrar un mensaje (al error estándar) explicando qué ocurrió, y terminar con gracia.
+Hay puntos extras que hagan de cuenta que es kermés:
+
+Punto extra si su programa lidia con archivos de texto en árabe, griego y cirílico. UTF-8 exclusivamente.
+Punto extra si utilizan JavaScript para hacer animaciones interesantes c
